@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+    
+}
+
+body {
+    background-color: #333;
+    height: 100vh;
+}
+.sqare {
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+}
+
+@media (min-width: 500px) {
+    .sqare {
+        background-color: royalblue;
+    }
+}
+@media (min-width: 700px) {
+    .sqare {
+        background-color: lime;
+    }
+}
+@media (min-width: 550px) and (max-width: 850px ) {
+    .sqare {
+      width: 450px;
+    }
+}
+@media (min-width: 800px) {
+    body { 
+        background-image: radial-gradient(circle at 0% 0%, #ff8a63 0, #ff7763 16.67%, #ff5e5f 33.33%, #ff3858 50%, #ed0053 66.67%, #de0053 83.33%, #d20058 100%);
+    }
+}
