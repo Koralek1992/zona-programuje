@@ -1,0 +1,85 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	position: relative;
+}
+
+.btn {
+	position: absolute;
+	display: inline-block;
+	top: 50px;
+	width: 120px;
+	transform: translateX(-50%);
+	padding: 10px 30px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 3px solid white;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.zoom {
+	left: 30%;
+}
+.move {
+	left: 50%;
+}
+.color {
+	left: 70%;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: black;
+}
+
+.sqauare {
+	position: absolute;
+	top: 150px;
+	height: 100px;
+	width: 100px;
+	background-color: #fff;
+	transform: translateX(-50%);
+	border-radius: 25px;
+	transition: 0.2s;
+}
+
+.blue {
+	left: 30%;
+	background-color: royalblue;
+	border: blue 2px solid;
+	box-shadow: 0 0 15px royalblue;
+}
+.red {
+	left: 50%;
+	background-color: tomato;
+	border: 2px solid red;
+	box-shadow: 0 0 15px tomato;
+}
+.green {
+	left: 70%;
+	background-color: greenyellow;
+	border: 2px solid green;
+	box-shadow: 0 0 15px greenyellow;
+}
+
+.zoom:hover ~ .sqauare {
+	width: 200px;
+	height: 200px;
+}
+
+.move:hover ~ .sqauare {
+	top: 400px;
+}
+
+.color:hover ~ .sqauare {
+	background-color: black;
+    border: white 2px solid;
+	box-shadow: 0 0 15px black;
+}
+
