@@ -1,0 +1,45 @@
+body {
+    background: url('./buildings-gf2bd5fe99_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 60px auto;
+    background-color: black;
+    padding: 30px;
+    width: 400px;
+    height: 150px;
+    color: silver;
+}
+
+.bisness-card img {
+    float: left;
+}
+
+.username, .email, .download-cv {
+    font-family: arial;
+    text-align: center;
+}
+
+.username {
+    font-size: 20px;
+}
+
+.username span {
+    border-bottom: 1px solid red;
+    padding-bottom: 4px;
+}
+
+.email {
+    font-size: 15px;
+}
+
+.download-cv a{
+color: red;
+font-size: 14px;
+text-decoration: none;
+}
+
+img {
+    width: 150px;
+}
